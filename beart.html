@@ -32,7 +32,7 @@
   #dots { display:flex; gap:6px; align-items:center; }
   .dot { width:6px; height:6px; border-radius:50%; background:rgba(255,255,255,.25); cursor:pointer; transition:background .2s,transform .2s; }
   .dot.active { background:var(--accent); transform:scale(1.4); }
-  .eyebrow { font-size:11px; letter-spacing:.15em; text-transform:uppercase; color:var(--accent); margin-bottom:16px; font-family:'Inter',sans-serif; font-weight:400; }
+  .eyebrow { font-size:13px; letter-spacing:.15em; text-transform:uppercase; color:var(--accent); margin-bottom:16px; font-family:'Inter',sans-serif; font-weight:400; }
   #key-hint { position:absolute; bottom:16px; color:rgba(255,255,255,.2); font-size:11px; font-family:'Inter',sans-serif; letter-spacing:.05em; }
 
   /* ── S1: TITLE ── */
@@ -51,16 +51,16 @@
   #s2 .inner { width:100%; height:100%; display:grid; grid-template-columns:420px 1fr; }
   #s2 .left-panel { background:var(--black); padding:64px 52px; display:flex; flex-direction:column; justify-content:center; color:var(--white); }
   #s2 .right-panel { padding:52px 56px; display:flex; flex-direction:column; justify-content:center; background:var(--bg); }
-  #s2 .company-name { font-size:26px; font-weight:700; line-height:1.3; margin-bottom:8px; }
-  #s2 .company-address { font-size:12px; color:rgba(255,255,255,.4); margin-bottom:36px; font-family:'Inter',sans-serif; line-height:1.6; }
+  #s2 .company-name { font-size:30px; font-weight:700; line-height:1.3; margin-bottom:8px; }
+  #s2 .company-address { font-size:14px; color:rgba(255,255,255,.4); margin-bottom:36px; font-family:'Inter',sans-serif; line-height:1.6; }
   #s2 .feat-list { list-style:none; display:flex; flex-direction:column; gap:16px; }
-  #s2 .feat-list li { font-size:13px; font-weight:300; color:rgba(255,255,255,.7); line-height:1.6; padding-left:16px; border-left:2px solid var(--accent); }
+  #s2 .feat-list li { font-size:18px; font-weight:300; color:rgba(255,255,255,.7); line-height:1.6; padding-left:16px; border-left:2px solid var(--accent); }
   #s2 .section-head { font-size:11px; letter-spacing:.15em; text-transform:uppercase; color:var(--accent); margin-bottom:20px; font-family:'Inter',sans-serif; }
   #s2 .service-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
   #s2 .service-item { background:var(--white); border:1px solid var(--silver-light); border-radius:8px; padding:18px 20px; }
   #s2 .s-label { font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--accent); margin-bottom:5px; font-family:'Inter',sans-serif; }
-  #s2 .s-title { font-size:14px; font-weight:500; color:var(--text); line-height:1.4; }
-  #s2 .s-sub { font-size:12px; color:var(--text-sub); margin-top:3px; line-height:1.5; }
+  #s2 .s-title { font-size:17px; font-weight:500; color:var(--text); line-height:1.4; }
+  #s2 .s-sub { font-size:16px; color:var(--text-sub); margin-top:3px; line-height:1.5; }
 
   /* ── S3: EOS MACHINE ── */
   #s3 { background:var(--black); }
@@ -70,11 +70,11 @@
   #s3 .right img { width:100%; height:100%; object-fit:cover; object-position:center; filter:brightness(.8); }
   #s3 .spec-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:28px; }
   #s3 .spec-item { border:1px solid rgba(255,255,255,.1); border-radius:6px; padding:14px 16px; }
-  #s3 .spec-val { font-size:20px; font-weight:700; color:var(--white); font-family:'Inter',sans-serif; letter-spacing:-.02em; margin-bottom:3px; }
+  #s3 .spec-val { font-size:24px; font-weight:700; color:var(--white); font-family:'Inter',sans-serif; letter-spacing:-.02em; margin-bottom:3px; }
   #s3 .spec-val span { font-size:12px; color:var(--accent); margin-left:2px; }
-  #s3 .spec-label { font-size:11px; color:rgba(255,255,255,.4); letter-spacing:.03em; }
+  #s3 .spec-label { font-size:13px; color:rgba(255,255,255,.4); letter-spacing:.03em; }
   #s3 .products { margin-top:24px; display:flex; flex-wrap:wrap; gap:7px; }
-  #s3 .prod-tag { font-size:11px; letter-spacing:.06em; border:1px solid rgba(255,255,255,.18); color:rgba(255,255,255,.6); padding:4px 11px; border-radius:2px; font-family:'Inter',sans-serif; }
+  #s3 .prod-tag { font-size:13px; letter-spacing:.06em; border:1px solid rgba(255,255,255,.18); color:rgba(255,255,255,.6); padding:4px 11px; border-radius:2px; font-family:'Inter',sans-serif; }
   #s3 .right-label { position:absolute; bottom:24px; left:0; right:0; text-align:center; font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:rgba(255,255,255,.3); font-family:'Inter',sans-serif; }
 
   /* ── S4:造形物ギャラリー ── */
@@ -85,7 +85,7 @@
   #s4 .gallery-item { position:relative; background:#111; overflow:hidden; height:337px; }
   #s4 .gallery-item img { width:100%; height:100%; object-fit:contain; object-position:center; display:block; filter:brightness(.9); }
   #s4 .gallery-item.landscape img { object-fit:cover; }
-  #s4 .gallery-item .cap { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent,rgba(0,0,0,.75)); padding:14px 10px 8px; font-size:10px; color:rgba(255,255,255,.7); letter-spacing:.05em; font-family:'Inter',sans-serif; }
+  #s4 .gallery-item .cap { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent,rgba(0,0,0,.75)); padding:14px 10px 8px; font-size:15px; color:rgba(255,255,255,.7); letter-spacing:.05em; font-family:'Inter',sans-serif; }
 
   /* ── S5: WORKFLOW ── */
   #s5 { background:var(--bg); }
@@ -98,10 +98,10 @@
   #s5 .flow-steps { display:flex; flex-direction:column; gap:18px; margin-top:24px; }
   #s5 .flow-step { display:flex; align-items:flex-start; gap:14px; }
   #s5 .step-num { font-size:11px; font-family:'Inter',sans-serif; color:var(--accent); letter-spacing:.06em; padding-top:3px; min-width:22px; font-weight:500; }
-  #s5 .step-title { font-size:14px; font-weight:500; color:var(--text); margin-bottom:2px; }
-  #s5 .step-sub { font-size:12px; color:var(--text-sub); line-height:1.6; }
+  #s5 .step-title { font-size:17px; font-weight:500; color:var(--text); margin-bottom:2px; }
+  #s5 .step-sub { font-size:16px; color:var(--text-sub); line-height:1.6; }
   #s5 .highlight-box { margin-top:24px; padding:16px 18px; background:var(--black); border-radius:6px; color:var(--white); }
-  #s5 .highlight-box p { font-size:13px; font-weight:300; line-height:1.75; color:rgba(255,255,255,.75); }
+  #s5 .highlight-box p { font-size:17px; font-weight:300; line-height:1.75; color:rgba(255,255,255,.75); }
   #s5 .highlight-box strong { color:var(--accent); font-weight:500; }
 
   /* ── S6: 矯正装置 完成品 ── */
@@ -120,10 +120,10 @@
   #s7 .left { color:var(--white); }
   #s7 .badge { display:inline-flex; align-items:center; gap:8px; background:rgba(184,168,152,.12); border:1px solid rgba(184,168,152,.3); padding:5px 14px; border-radius:20px; margin-bottom:24px; }
   #s7 .badge span { font-size:11px; color:var(--accent); letter-spacing:.08em; font-family:'Inter',sans-serif; }
-  #s7 .main-h { font-size:30px; font-weight:700; line-height:1.25; margin-bottom:14px; }
-  #s7 .desc { font-size:13px; font-weight:300; color:rgba(255,255,255,.6); line-height:1.85; margin-bottom:28px; }
+  #s7 .main-h { font-size:34px; font-weight:700; line-height:1.25; margin-bottom:14px; }
+  #s7 .desc { font-size:17px; font-weight:300; color:rgba(255,255,255,.6); line-height:1.85; margin-bottom:28px; }
   #s7 .feature-list { list-style:none; display:flex; flex-direction:column; gap:12px; }
-  #s7 .feature-list li { display:flex; align-items:flex-start; gap:11px; font-size:13px; color:rgba(255,255,255,.7); line-height:1.6; }
+  #s7 .feature-list li { display:flex; align-items:flex-start; gap:11px; font-size:17px; color:rgba(255,255,255,.7); line-height:1.6; }
   #s7 .feature-list li::before { content:''; display:block; width:4px; height:4px; border-radius:50%; background:var(--accent); margin-top:7px; flex-shrink:0; }
   #s7 .right { display:flex; align-items:center; justify-content:center; }
   #s7 .right img { width:100%; max-height:480px; object-fit:contain; border-radius:8px; }
@@ -135,20 +135,20 @@
   #s8 .body { padding:32px 64px; display:grid; grid-template-columns:1fr 1fr 1fr; gap:20px; align-items:start; }
   #s8 .disc-card { border:1px solid var(--silver-light); border-radius:8px; overflow:hidden; }
   #s8 .dc-head { background:var(--black); padding:16px 20px; color:var(--white); }
-  #s8 .dc-name { font-size:15px; font-weight:700; margin-bottom:3px; }
+  #s8 .dc-name { font-size:17px; font-weight:700; margin-bottom:3px; }
   #s8 .dc-sub { font-size:10px; color:rgba(255,255,255,.4); font-family:'Inter',sans-serif; letter-spacing:.05em; }
   #s8 .dc-body { padding:18px 20px; }
   #s8 .dc-stat { margin-bottom:10px; }
-  #s8 .dc-stat-val { font-size:18px; font-weight:700; color:var(--text); font-family:'Inter',sans-serif; }
+  #s8 .dc-stat-val { font-size:22px; font-weight:700; color:var(--text); font-family:'Inter',sans-serif; }
   #s8 .dc-stat-val span { font-size:11px; color:var(--accent); margin-left:2px; }
-  #s8 .dc-stat-label { font-size:11px; color:var(--text-sub); margin-top:1px; }
+  #s8 .dc-stat-label { font-size:15px; color:var(--text-sub); margin-top:1px; }
   #s8 .dc-layers { display:flex; gap:4px; margin-top:14px; }
   #s8 .layer-bar { height:3px; border-radius:2px; background:var(--silver-light); flex:1; }
   #s8 .layer-bar.filled { background:var(--accent); }
   #s8 .maker-section { grid-column:1/-1; }
   #s8 .maker-label { font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--text-sub); margin-bottom:10px; font-family:'Inter',sans-serif; }
   #s8 .maker-list { display:flex; flex-wrap:wrap; gap:7px; }
-  #s8 .maker-tag { font-size:11px; padding:4px 11px; border:1px solid var(--silver-light); border-radius:2px; color:var(--text-sub); }
+  #s8 .maker-tag { font-size:15px; padding:4px 11px; border:1px solid var(--silver-light); border-radius:2px; color:var(--text-sub); }
 
   /* ── S9: CAD GALLERY ── */
   #s9 { background:var(--black); }
@@ -157,7 +157,7 @@
   #s9 .cad-grid { display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr 1fr; gap:3px; }
   #s9 .cad-item { overflow:hidden; position:relative; }
   #s9 .cad-item img { width:100%; height:100%; object-fit:cover; object-position:center; filter:brightness(.85) saturate(1.1); }
-  #s9 .cad-item .cap { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent,rgba(0,0,0,.75)); padding:14px 10px 8px; font-size:10px; color:rgba(255,255,255,.7); letter-spacing:.04em; font-family:'Inter',sans-serif; }
+  #s9 .cad-item .cap { position:absolute; bottom:0; left:0; right:0; background:linear-gradient(transparent,rgba(0,0,0,.75)); padding:14px 10px 8px; font-size:13px; color:rgba(255,255,255,.7); letter-spacing:.04em; font-family:'Inter',sans-serif; }
 
   /* ── S10: VIDEO ── */
   #s10 { background:var(--black); }
@@ -175,13 +175,13 @@
   #s11 .left { padding:64px 60px; display:flex; flex-direction:column; justify-content:center; color:var(--white); border-right:1px solid rgba(255,255,255,.07); }
   #s11 .right { padding:64px 60px; display:flex; flex-direction:column; justify-content:center; background:rgba(255,255,255,.02); }
   #s11 .closing-title { font-size:38px; font-weight:700; line-height:1.2; margin-bottom:18px; color:var(--white); }
-  #s11 .closing-sub { font-size:14px; font-weight:300; color:rgba(255,255,255,.5); line-height:1.8; max-width:340px; }
+  #s11 .closing-sub { font-size:18px; font-weight:300; color:rgba(255,255,255,.5); line-height:1.8; max-width:340px; }
   #s11 .contact-block { margin-top:36px; }
   #s11 .contact-label { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin-bottom:10px; font-family:'Inter',sans-serif; }
-  #s11 .contact-info { font-size:13px; color:rgba(255,255,255,.6); line-height:2; }
+  #s11 .contact-info { font-size:17px; color:rgba(255,255,255,.6); line-height:2; }
   #s11 .services-title { font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:rgba(255,255,255,.3); margin-bottom:18px; font-family:'Inter',sans-serif; }
   #s11 .service-lines { display:flex; flex-direction:column; gap:10px; }
-  #s11 .service-line { display:flex; align-items:center; gap:12px; padding:12px 14px; border:1px solid rgba(255,255,255,.08); border-radius:6px; color:rgba(255,255,255,.6); font-size:13px; }
+  #s11 .service-line { display:flex; align-items:center; gap:12px; padding:12px 14px; border:1px solid rgba(255,255,255,.08); border-radius:6px; color:rgba(255,255,255,.6); font-size:17px; }
   #s11 .service-line::before { content:''; width:3px; height:3px; border-radius:50%; background:var(--accent); flex-shrink:0; }
 </style>
 </head>
@@ -197,7 +197,7 @@
         <div class="logo-area">Bearlt Co., Ltd.</div>
         <div class="accent-bar"></div>
         <div class="main-title">デジタルと技術が、<br><span>補綴の可能性</span>を<br>広げる。</div>
-        <p class="catch">3Dメタルプリンティングとデジタルワークフローで、<br>歯科技工の新しいかたちをご提案します。</p>
+        <p class="catch">3Dメタルプリンティングとデジタルワークフローで、<br>歯科技工の新しいかたちをご紹介します。</p>
         <div class="meta">株式会社ベアルト　技術紹介</div>
       </div>
     </div>
@@ -249,7 +249,7 @@
         <div class="left">
           <div class="eyebrow">EOS M 100 — Metal 3D Printing</div>
           <div style="font-size:32px;font-weight:700;line-height:1.2;color:var(--white);margin-bottom:10px;">金属粉末積層造形<br>システム導入</div>
-          <p style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.8;max-width:400px;">ドイツEOS社製の産業グレード金属3Dプリンター。レーザービーム径わずか40μmの精密さで、従来の鋳造では難しかった複雑形状を欠陥なく造形します。</p>
+          <p style="font-size:17px;color:rgba(255,255,255,.55);line-height:1.8;max-width:440px;">ドイツEOS社製の産業グレード金属3Dプリンター。レーザービーム径わずか40μmの精密さで、従来の鋳造では難しかった複雑形状を欠陥なく造形します。</p>
           <div class="spec-grid">
             <div class="spec-item"><div class="spec-val">40<span>μm</span></div><div class="spec-label">レーザービーム径</div></div>
             <div class="spec-item"><div class="spec-val">0<span>欠陥</span></div><div class="spec-label">鋳造欠陥</div></div>
@@ -273,7 +273,7 @@
         <div class="left">
           <div class="eyebrow">Output Gallery</div>
           <div style="font-size:26px;font-weight:700;line-height:1.3;color:var(--white);margin-bottom:14px;">造形サンプル</div>
-          <p style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.8;">チタン・コバルトクロムによる高精度造形。鋳造欠陥ゼロ、優れた再現性で、複雑な形状にも対応します。</p>
+          <p style="font-size:17px;color:rgba(255,255,255,.55);line-height:1.8;">チタン・コバルトクロムによる高精度造形。鋳造欠陥ゼロ、優れた再現性で、複雑な形状にも対応します。</p>
         </div>
         <div class="gallery">
           <div class="gallery-item landscape">
@@ -339,9 +339,9 @@
         <div class="s6-content">
           <div class="eyebrow" style="color:var(--accent)">Case Study</div>
           <div style="font-size:24px;font-weight:700;line-height:1.3;color:var(--text);margin-bottom:14px;">メタルプリント<br>矯正装置 完成品</div>
-          <p style="font-size:13px;color:var(--text-sub);line-height:1.8;margin-bottom:20px;">CAD設計 → メタルプリント造形 → 先方による仕上げ、という新しい分業スタイルで完成させた矯正装置フレーム。</p>
+          <p style="font-size:17px;color:var(--text-sub);line-height:1.8;margin-bottom:20px;">CAD設計 → メタルプリント造形 → 先方による仕上げ、という新しい分業スタイルで完成させた矯正装置フレーム。</p>
           <div style="padding:16px 18px;background:var(--black);border-radius:6px;">
-            <p style="font-size:12px;color:rgba(255,255,255,.7);line-height:1.8;">このスタイルでの完成のさせ方は<span style="color:var(--accent);font-weight:500;">これまであまり例のない</span>画期的なアプローチです。</p>
+            <p style="font-size:16px;color:rgba(255,255,255,.7);line-height:1.8;">このスタイルでの完成のさせ方は<span style="color:var(--accent);font-weight:500;">これまであまり例のない</span>画期的なアプローチです。</p>
           </div>
           <div style="margin-top:18px;">
             <img src="IMG_9199.JPG" alt="完成品3" style="width:100%;border-radius:6px;object-fit:cover;max-height:140px;">
@@ -424,7 +424,7 @@
         <div class="left">
           <div class="eyebrow">3shape CAD</div>
           <div style="font-size:26px;font-weight:700;line-height:1.3;color:var(--white);margin-bottom:14px;">デジタル設計<br>CADギャラリー</div>
-          <p style="font-size:13px;color:rgba(255,255,255,.55);line-height:1.8;">3shapeを用いた局部床義歯フレームの設計例。ヒートマップによるフィット精度の可視化も行い、品質を数値で確認しながら設計を進めます。</p>
+          <p style="font-size:17px;color:rgba(255,255,255,.55);line-height:1.8;">3shapeを用いた局部床義歯フレームの設計例。ヒートマップによるフィット精度の可視化も行い、品質を数値で確認しながら設計を進めます。</p>
         </div>
         <div class="cad-grid">
           <div class="cad-item"><img src="IMG_9192.JPG" alt="CAD1"><div class="cap">上顎 — 咬合面</div></div>
